@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.freefire-bg {
+  background: url('https://wallpaperaccess.com/full/1077356.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background: rgba(0, 0, 0, 0.92);
+  padding: 80px 60px;
+  border-radius: 30px;
+  max-width: 650px;
+  width: 95%;
+  box-shadow: 0 0 45px #ffcc00;
+  text-align: center;
+  transform: scale(1.15);
+}
+
+.logo {
+  width: 260px;
+  margin-bottom: 35px;
+  border-radius: 18px;
+  box-shadow: 0 0 15px #fff;
+}
+
+.login-container h1 {
+  font-size: 3em;
+  margin-bottom: 25px;
+  color: #fff;
+}
+
+.login-container .promo {
+  color: #ffcc00;
+  font-weight: bold;
+  font-size: 1.8em;
+  margin-bottom: 35px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  background: #222;
+  margin-bottom: 30px;
+  border-radius: 18px;
+  padding: 20px;
+  font-size: 1.7em;
+}
+
+.input-group span {
+  margin-right: 18px;
+  font-size: 1.8em;
+  color: #aaa;
+}
+
+.input-group input {
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+  width: 100%;
+  font-size: 1.4em;
+}
+
+.login-container button {
+  background: #ffcc00;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 18px;
+  padding: 20px 0;
+  width: 100%;
+  font-size: 1.6em;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.login-container button:hover {
+  background: #ffaa00;
+  transform: scale(1.03);
+}
+
+.login-container .info {
+  margin-top: 30px;
+  font-size: 1.2em;
+  color: #ccc;
+}
+
+/* Página de amor */
+.heart-bg {
+  background: linear-gradient(to bottom, #ff758c, #ff7eb3);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.message-container {
+  background: white;
+  color: #333;
+  padding: 60px;
+  border-radius: 30px;
+  box-shadow: 0 0 50px rgba(255, 100, 150, 0.8);
+  max-width: 700px;
+  animation: bounceIn 1s ease;
+}
+
+.message-container h1 {
+  font-size: 3.5em;
+  color: #e91e63;
+}
+
+.message-container .buttons {
+  margin-top: 35px;
+}
+
+.message-container button {
+  margin: 15px;
+  padding: 18px 35px;
+  border: none;
+  border-radius: 18px;
+  background: #ff4081;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s;
+  font-size: 1.4em;
+}
+
+.message-container button:hover {
+  transform: scale(1.1);
+}
+
+@keyframes bounceIn {
+  0% { transform: scale(0.5); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
